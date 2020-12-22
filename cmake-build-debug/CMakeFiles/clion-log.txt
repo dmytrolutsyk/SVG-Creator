@@ -1,0 +1,4 @@
+"D:\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\MASTER\SVG Creator"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/MASTER/SVG Creator/cmake-build-debug
