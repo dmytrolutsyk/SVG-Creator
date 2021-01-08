@@ -3,13 +3,6 @@
 
 #include <stdio.h>
 
-class Point(int x, int y){
-    public:
-        Point(x, y);
-    private:
-        int x;
-        int y;
-};
 
 
 void rectangle(){
