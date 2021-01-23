@@ -3,9 +3,9 @@
 //
 
 #include "Point.h"
-Point::Point(){
-    this-> m_x = 1;
-    this-> m_y = 1;
+Point::Point(float x, float y){
+    this-> m_x = x;
+    this-> m_y = y;
 }
 
 void Point::setX(float& x)
