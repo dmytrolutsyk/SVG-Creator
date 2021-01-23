@@ -102,21 +102,111 @@ CMakeFiles/SVG_Creator.dir/Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Rectangle.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Rectangle.cpp" -o CMakeFiles\SVG_Creator.dir\Rectangle.cpp.s
 
+CMakeFiles/SVG_Creator.dir/Point.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Point.cpp.obj: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SVG_Creator.dir/Point.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Point.cpp.obj -c "D:\MASTER\SVG Creator\Point.cpp"
+
+CMakeFiles/SVG_Creator.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Point.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Point.cpp" > CMakeFiles\SVG_Creator.dir\Point.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Point.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Point.cpp" -o CMakeFiles\SVG_Creator.dir\Point.cpp.s
+
+CMakeFiles/SVG_Creator.dir/Segment.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Segment.cpp.obj: ../Segment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SVG_Creator.dir/Segment.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Segment.cpp.obj -c "D:\MASTER\SVG Creator\Segment.cpp"
+
+CMakeFiles/SVG_Creator.dir/Segment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Segment.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Segment.cpp" > CMakeFiles\SVG_Creator.dir\Segment.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Segment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Segment.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Segment.cpp" -o CMakeFiles\SVG_Creator.dir\Segment.cpp.s
+
+CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj: ../Polygone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Polygone.cpp.obj -c "D:\MASTER\SVG Creator\Polygone.cpp"
+
+CMakeFiles/SVG_Creator.dir/Polygone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Polygone.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Polygone.cpp" > CMakeFiles\SVG_Creator.dir\Polygone.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Polygone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Polygone.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Polygone.cpp" -o CMakeFiles\SVG_Creator.dir\Polygone.cpp.s
+
+CMakeFiles/SVG_Creator.dir/Circle.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Circle.cpp.obj: ../Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SVG_Creator.dir/Circle.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Circle.cpp.obj -c "D:\MASTER\SVG Creator\Circle.cpp"
+
+CMakeFiles/SVG_Creator.dir/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Circle.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Circle.cpp" > CMakeFiles\SVG_Creator.dir\Circle.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Circle.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Circle.cpp" -o CMakeFiles\SVG_Creator.dir\Circle.cpp.s
+
+CMakeFiles/SVG_Creator.dir/Color.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Color.cpp.obj: ../Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SVG_Creator.dir/Color.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Color.cpp.obj -c "D:\MASTER\SVG Creator\Color.cpp"
+
+CMakeFiles/SVG_Creator.dir/Color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Color.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Color.cpp" > CMakeFiles\SVG_Creator.dir\Color.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Color.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Color.cpp" -o CMakeFiles\SVG_Creator.dir\Color.cpp.s
+
+CMakeFiles/SVG_Creator.dir/Forme.cpp.obj: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Forme.cpp.obj: ../Forme.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SVG_Creator.dir/Forme.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SVG_Creator.dir\Forme.cpp.obj -c "D:\MASTER\SVG Creator\Forme.cpp"
+
+CMakeFiles/SVG_Creator.dir/Forme.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Forme.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\MASTER\SVG Creator\Forme.cpp" > CMakeFiles\SVG_Creator.dir\Forme.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Forme.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Forme.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\MASTER\SVG Creator\Forme.cpp" -o CMakeFiles\SVG_Creator.dir\Forme.cpp.s
+
 # Object files for target SVG_Creator
 SVG_Creator_OBJECTS = \
 "CMakeFiles/SVG_Creator.dir/main.cpp.obj" \
-"CMakeFiles/SVG_Creator.dir/Rectangle.cpp.obj"
+"CMakeFiles/SVG_Creator.dir/Rectangle.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Point.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Segment.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Circle.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Color.cpp.obj" \
+"CMakeFiles/SVG_Creator.dir/Forme.cpp.obj"
 
 # External object files for target SVG_Creator
 SVG_Creator_EXTERNAL_OBJECTS =
 
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/main.cpp.obj
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Rectangle.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Point.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Segment.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Circle.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Color.cpp.obj
+SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/Forme.cpp.obj
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/build.make
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/linklibs.rsp
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/objects1.rsp
 SVG_Creator.exe: CMakeFiles/SVG_Creator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SVG_Creator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\MASTER\SVG Creator\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SVG_Creator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SVG_Creator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

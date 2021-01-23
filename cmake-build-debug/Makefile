@@ -142,6 +142,141 @@ SVG_Creator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/build
 .PHONY : SVG_Creator/fast
 
+Circle.obj: Circle.cpp.obj
+
+.PHONY : Circle.obj
+
+# target to build an object file
+Circle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Circle.cpp.obj
+.PHONY : Circle.cpp.obj
+
+Circle.i: Circle.cpp.i
+
+.PHONY : Circle.i
+
+# target to preprocess a source file
+Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Circle.cpp.i
+.PHONY : Circle.cpp.i
+
+Circle.s: Circle.cpp.s
+
+.PHONY : Circle.s
+
+# target to generate assembly for a file
+Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Circle.cpp.s
+.PHONY : Circle.cpp.s
+
+Color.obj: Color.cpp.obj
+
+.PHONY : Color.obj
+
+# target to build an object file
+Color.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Color.cpp.obj
+.PHONY : Color.cpp.obj
+
+Color.i: Color.cpp.i
+
+.PHONY : Color.i
+
+# target to preprocess a source file
+Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Color.cpp.i
+.PHONY : Color.cpp.i
+
+Color.s: Color.cpp.s
+
+.PHONY : Color.s
+
+# target to generate assembly for a file
+Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Color.cpp.s
+.PHONY : Color.cpp.s
+
+Forme.obj: Forme.cpp.obj
+
+.PHONY : Forme.obj
+
+# target to build an object file
+Forme.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Forme.cpp.obj
+.PHONY : Forme.cpp.obj
+
+Forme.i: Forme.cpp.i
+
+.PHONY : Forme.i
+
+# target to preprocess a source file
+Forme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Forme.cpp.i
+.PHONY : Forme.cpp.i
+
+Forme.s: Forme.cpp.s
+
+.PHONY : Forme.s
+
+# target to generate assembly for a file
+Forme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Forme.cpp.s
+.PHONY : Forme.cpp.s
+
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+Polygone.obj: Polygone.cpp.obj
+
+.PHONY : Polygone.obj
+
+# target to build an object file
+Polygone.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj
+.PHONY : Polygone.cpp.obj
+
+Polygone.i: Polygone.cpp.i
+
+.PHONY : Polygone.i
+
+# target to preprocess a source file
+Polygone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Polygone.cpp.i
+.PHONY : Polygone.cpp.i
+
+Polygone.s: Polygone.cpp.s
+
+.PHONY : Polygone.s
+
+# target to generate assembly for a file
+Polygone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Polygone.cpp.s
+.PHONY : Polygone.cpp.s
+
 Rectangle.obj: Rectangle.cpp.obj
 
 .PHONY : Rectangle.obj
@@ -168,6 +303,33 @@ Rectangle.s: Rectangle.cpp.s
 Rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Rectangle.cpp.s
 .PHONY : Rectangle.cpp.s
+
+Segment.obj: Segment.cpp.obj
+
+.PHONY : Segment.obj
+
+# target to build an object file
+Segment.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Segment.cpp.obj
+.PHONY : Segment.cpp.obj
+
+Segment.i: Segment.cpp.i
+
+.PHONY : Segment.i
+
+# target to preprocess a source file
+Segment.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Segment.cpp.i
+.PHONY : Segment.cpp.i
+
+Segment.s: Segment.cpp.s
+
+.PHONY : Segment.s
+
+# target to generate assembly for a file
+Segment.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SVG_Creator.dir\build.make CMakeFiles/SVG_Creator.dir/Segment.cpp.s
+.PHONY : Segment.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +367,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... SVG_Creator
+	@echo ... Circle.obj
+	@echo ... Circle.i
+	@echo ... Circle.s
+	@echo ... Color.obj
+	@echo ... Color.i
+	@echo ... Color.s
+	@echo ... Forme.obj
+	@echo ... Forme.i
+	@echo ... Forme.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
+	@echo ... Polygone.obj
+	@echo ... Polygone.i
+	@echo ... Polygone.s
 	@echo ... Rectangle.obj
 	@echo ... Rectangle.i
 	@echo ... Rectangle.s
+	@echo ... Segment.obj
+	@echo ... Segment.i
+	@echo ... Segment.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

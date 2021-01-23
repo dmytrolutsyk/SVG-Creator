@@ -80,10 +80,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/MASTER/SVG Creator/Circle.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Circle.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Color.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Color.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Forme.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Forme.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Point.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Point.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Polygone.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Polygone.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
 		<Unit filename="D:/MASTER/SVG Creator/Rectangle.cpp">
 			<Option target="SVG_Creator"/>
 		</Unit>
 		<Unit filename="D:/MASTER/SVG Creator/Rectangle.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Segment.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="D:/MASTER/SVG Creator/Segment.h">
 			<Option target="SVG_Creator"/>
 		</Unit>
 		<Unit filename="D:/MASTER/SVG Creator/main.cpp">

@@ -4,7 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/MASTER/SVG Creator/Circle.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Circle.cpp.obj"
+  "D:/MASTER/SVG Creator/Color.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Color.cpp.obj"
+  "D:/MASTER/SVG Creator/Forme.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Forme.cpp.obj"
+  "D:/MASTER/SVG Creator/Point.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Point.cpp.obj"
+  "D:/MASTER/SVG Creator/Polygone.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj"
   "D:/MASTER/SVG Creator/Rectangle.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Rectangle.cpp.obj"
+  "D:/MASTER/SVG Creator/Segment.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/Segment.cpp.obj"
   "D:/MASTER/SVG Creator/main.cpp" "D:/MASTER/SVG Creator/cmake-build-debug/CMakeFiles/SVG_Creator.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
