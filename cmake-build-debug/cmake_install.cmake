@@ -1,8 +1,8 @@
-# Install script for directory: D:/MASTER/SVG Creator
+# Install script for directory: /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SVG_Creator")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/MASTER/SVG Creator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

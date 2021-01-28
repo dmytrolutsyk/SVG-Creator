@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SVG_Creator.dir/Circle.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Color.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Forme.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Point.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Polygone.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Rectangle.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/Segment.cpp.obj"
-  "CMakeFiles/SVG_Creator.dir/main.cpp.obj"
-  "SVG_Creator.exe"
-  "SVG_Creator.exe.manifest"
+  "CMakeFiles/SVG_Creator.dir/Draw/Draw.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Forme.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.o"
+  "CMakeFiles/SVG_Creator.dir/main.cpp.o"
+  "SVG_Creator"
   "SVG_Creator.pdb"
-  "libSVG_Creator.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

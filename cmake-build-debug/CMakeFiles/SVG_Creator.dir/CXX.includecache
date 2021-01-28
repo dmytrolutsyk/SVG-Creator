@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/MASTER/SVG Creator/main.cpp
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
+../Formes/Point/Point.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.h
+
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.h
+
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
+
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/main.cpp
 iostream
 -
 math.h
 -
 stdio.h
 -
+Formes/Polygone/Polygone.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
+Draw/Draw.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
 
