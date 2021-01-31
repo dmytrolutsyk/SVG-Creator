@@ -17,7 +17,6 @@ class Draw {
 
 public:
     Draw(int largeur, int hauteur);
-    bool isInDraw(Point point);
     void createForme();
 
     int getHauteur();
@@ -34,11 +33,15 @@ private:
     void createLine();
     void createPolygone();
 
+    int cancerOrRetry();
+
     bool pointIsConform(Point point);
     bool rectangleIsconform(Rectangle rectangle);
     bool circleIsconform(Circle circle);
     bool lineIsconform(Line line);
     bool polygoneIsconform(Polygone polygone);
+
+
 
 };
 

@@ -43,6 +43,12 @@ vector
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.h
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
+vector
+-
+../Point/Point.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.h
+../Forme.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Rectangle/Rectangle.h
 ../Point/Point.h

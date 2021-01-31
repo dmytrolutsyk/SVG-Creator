@@ -25,6 +25,8 @@ CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.o: ../Formes/Point/Point.h
 CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o: ../Formes/Point/Point.cpp
 CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o: ../Formes/Point/Point.h
 
+CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: ../Formes/Forme.h
+CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: ../Formes/Point/Point.h
 CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: ../Formes/Polygone/Polygone.cpp
 CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: ../Formes/Polygone/Polygone.h
 
