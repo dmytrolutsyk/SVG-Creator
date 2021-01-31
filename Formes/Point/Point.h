@@ -8,9 +8,12 @@
 
 class Point{
 public:
+    static Point create();
     //Constructor
     Point();
     Point(int m_x, int m_y);
+
+
 
     //getter et setter
     void setX(int x);

@@ -7,6 +7,9 @@
 
 
 class Forme {
+public:
+    // Abstract function
+    virtual void draw() = 0;
 
 };
 

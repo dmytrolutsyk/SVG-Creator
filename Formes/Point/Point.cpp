@@ -2,11 +2,25 @@
 // Created by Dima on 28/12/2020.
 //
 
+#include <iostream>
 #include "Point.h"
 
+Point Point::create() {
+    int x;
+    int y;
+    std::cout << "Afin de créer un point nous aurons besoin de deux informations : \n";
+    std::cout << "- x : \n";
+    std::cout << "- y \n";
+    std::cout << " Tout d'abord veuillez saisir x : ";
+    std::cin >> x;
+    std::cout << "\n Maintenant y : ";
+    std::cin >> y;
+    return Point(x,y);
+}
+
 Point::Point() {
-    this->m_x = 0;
-    this->m_y = 0;
+    this->m_y = 1;
+    this->m_x = 1;
 }
 
 Point::Point(int x, int y){

@@ -27,7 +27,8 @@ int main() {
     std::cout << "Bienvenue dans le SVG Creator !\n";
     std::cout << "Pour commencer veuillez créer votre dessin :\n";
     Draw draw = createDraw();
-    std::cout << "dessin hauteur : " << draw.getHauteur();
+    draw.createForme();
+
     return 0;
 }
 

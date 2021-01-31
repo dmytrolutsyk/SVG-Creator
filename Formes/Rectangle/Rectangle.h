@@ -6,21 +6,27 @@
 #define SVG_CREATOR_RECTANGLE_H
 
 #include "../Point/Point.h"
+#include "../Forme.h"
 
-/*class Rectangle(int hauteur, int largeur){
-    public:
-        Rectangle();
-        Rectangle(int hauteur, int largeur);
-        void get(int hauteur);
-        void get (int largeur);
-        int set(int hauteur);
-        int set(int largeur);
-        bool checkpoints(Point a, Point b, Point c, Point d);
+class Rectangle : public Forme {
+public:
+    static Rectangle create();
+    Rectangle();
+    Rectangle(int hauteur, int largeur, Point topCorner);
+    void draw();
 
-    private:
+    int getHauteur();
+    int getLargeur();
+    Point getCorner();
+    // Why this dosn't work ?
+    // bool isConform(Draw draw);
+
+private:
         int hauteur;
         int largeur;
+        Point topCorner;
+
 };
-*/
+
 
 #endif //SVG_CREATOR_RECTANGLE_H
