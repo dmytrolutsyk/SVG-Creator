@@ -29,44 +29,45 @@ void Draw::createForme() {
         std::cin >> typeForme;
     }while(typeForme != 1 && typeForme != 2 && typeForme != 3);
     switch(typeForme){
-        case 1: this->createLine();
-        case 2: this->createRectangle();
-        case 3: this->createPolygone();
-        default: ;
+        case 1: this->createLine(); break;
+        case 2: this->createRectangle(); break;
+        case 3: this->createPolygone(); break;
+        default: break;
     }
+    std::cout << "Create forme teerrrrmiinnnaaadddoooo";
 }
 
 void Draw::createRectangle() {
     Rectangle rectangle;
-    bool isConform = false;
+    bool isConform;
     rectangle = Rectangle::create();
     isConform = this->rectangleIsconform(rectangle);
     if(isConform) {this->addForme(&rectangle);}
     else {
         int cancelOrRetry = this->cancerOrRetry();
-        if(cancelOrRetry == 1) {this->createPolygone();}
+        if(cancelOrRetry == 1) {this->createRectangle();}
     }
-    this->addForme(&rectangle);
 }
 
 
 
 void Draw::createLine() {
     Line line;
-    bool isConform = false;
+    bool isConform;
     line = Line::create();
     isConform = this->lineIsconform(line);
-    if(isConform) {this->addForme(&line);}
-    else {
+    if(isConform) {
+        std::cout << "Line is confoooooorrrrrrmmmmm // Adding line";
+        this->addForme(&line);
+    } else {
         int cancelOrRetry = this->cancerOrRetry();
-        if(cancelOrRetry == 1) {this->createPolygone();}
+        if(cancelOrRetry == 1) {this->createLine();}
     }
-    this->addForme(&line);
 }
 
 void Draw::createPolygone() {
     Polygone polygone;
-    bool isConform = false;
+    bool isConform;
     polygone = Polygone::create();
     isConform = this->polygoneIsconform(polygone);
     if(isConform) {this->addForme(&polygone);}
@@ -83,13 +84,15 @@ bool Draw::lineIsconform(Line line) {
 }
 
 bool Draw::pointIsConform(Point point) {
-    if(this->largeur > point.getY() || point.getY() < 0) return false;
-    else if(this->hauteur > point.getX() || point.getX() < 0) return false;
+    if(this->largeur < point.getY() || point.getY() < 0) return false;
+    else if(this->hauteur < point.getX() || point.getX() < 0) return false;
     else return true;
 }
 
 bool Draw::rectangleIsconform(Rectangle rectangle) {
     if(!this->pointIsConform(rectangle.getCorner())) return false;
+    else if(rectangle.getCorner().getX() + rectangle.getLargeur() > this->largeur) return false;
+    else if(rectangle.getCorner().getY() + rectangle.getHauteur() > this->hauteur) return false;
     else return true;
 }
 
@@ -113,9 +116,14 @@ int Draw::cancerOrRetry() {
         std::cout << "Voulez vous recommencer : taper 1\n";
         std::cout << "Ou abandonner: taper 2 :";
         std::cin >> returnCode;
-    }while(returnCode != 0 && returnCode != 1);
+    }while(returnCode != 2 && returnCode != 1);
     return returnCode;
 }
+
+int Draw::getListFormeLength() {
+    return this->formes.size();
+}
+
 
 
 

@@ -21,6 +21,7 @@ public:
 
     int getHauteur();
     int getLargeur();
+    int getListFormeLength();
 
 private:
     int largeur;

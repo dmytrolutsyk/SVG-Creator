@@ -14,7 +14,7 @@ Line Line::create() {
     Point a;
     Point b;
     std::cout << "Afin de créer un segment nous aurons besoin de deux informations : \n";
-    std::cout << "- Un point A : \n";
+    std::cout << "- Un point A \n";
     std::cout << "- Un Point B \n";
     std::cout << " Tout d'abord commençon par créer le point A : \n";
     a = Point::create();

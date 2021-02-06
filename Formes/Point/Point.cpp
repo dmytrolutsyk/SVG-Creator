@@ -9,7 +9,7 @@ Point Point::create() {
     int x;
     int y;
     std::cout << "Afin de créer un point nous aurons besoin de deux informations : \n";
-    std::cout << "- x : \n";
+    std::cout << "- x \n";
     std::cout << "- y \n";
     std::cout << " Tout d'abord veuillez saisir x : ";
     std::cin >> x;

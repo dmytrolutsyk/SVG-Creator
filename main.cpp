@@ -28,6 +28,7 @@ int main() {
     std::cout << "Pour commencer veuillez créer votre dessin :\n";
     Draw draw = createDraw();
     draw.createForme();
+    std::cout << "nb de forme du dessin : " << draw.getListFormeLength();
 
     return 0;
 }
