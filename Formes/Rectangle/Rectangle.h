@@ -5,14 +5,14 @@
 #ifndef SVG_CREATOR_RECTANGLE_H
 #define SVG_CREATOR_RECTANGLE_H
 
-#include "../Point/Point.h"
+#include "../../Utils/Point/Point.h"
 #include "../Forme.h"
 
 class Rectangle : public Forme {
 public:
     static Rectangle create();
     Rectangle();
-    Rectangle(int hauteur, int largeur, Point topCorner);
+    Rectangle(int hauteur, int largeur, Point topCorner, Color color);
     void draw();
 
     int getHauteur();
@@ -25,6 +25,7 @@ private:
         int hauteur;
         int largeur;
         Point topCorner;
+        Color color;
 
 };
 

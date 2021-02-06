@@ -83,18 +83,18 @@ CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Rectangle/Rectangle.cpp -o CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.s
 
-CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o: CMakeFiles/SVG_Creator.dir/flags.make
-CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o: ../Formes/Point/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o -c /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.cpp
+CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o: ../Utils/Point/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o -c /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.cpp
 
-CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.cpp > CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.i
+CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.cpp > CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.i
 
-CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.cpp -o CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.s
+CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.cpp -o CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.s
 
 CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: CMakeFiles/SVG_Creator.dir/flags.make
 CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o: ../Formes/Polygone/Polygone.cpp
@@ -161,31 +161,46 @@ CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.cpp -o CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.s
 
+CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o: CMakeFiles/SVG_Creator.dir/flags.make
+CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o: ../Utils/Color/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o -c /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.cpp
+
+CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.cpp > CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.i
+
+CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.cpp -o CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.s
+
 # Object files for target SVG_Creator
 SVG_Creator_OBJECTS = \
 "CMakeFiles/SVG_Creator.dir/main.cpp.o" \
 "CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.o" \
-"CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o" \
+"CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o" \
 "CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o" \
 "CMakeFiles/SVG_Creator.dir/Formes/Forme.cpp.o" \
 "CMakeFiles/SVG_Creator.dir/Draw/Draw.cpp.o" \
 "CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o" \
-"CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.o"
+"CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.o" \
+"CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o"
 
 # External object files for target SVG_Creator
 SVG_Creator_EXTERNAL_OBJECTS =
 
 SVG_Creator: CMakeFiles/SVG_Creator.dir/main.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.o
-SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o
+SVG_Creator: CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Polygone/Polygone.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Forme.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Draw/Draw.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.o
+SVG_Creator: CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o
 SVG_Creator: CMakeFiles/SVG_Creator.dir/build.make
 SVG_Creator: CMakeFiles/SVG_Creator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable SVG_Creator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SVG_Creator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SVG_Creator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

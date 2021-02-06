@@ -6,7 +6,7 @@
 #define SVG_CREATOR_LINE_H
 
 
-#include "../Point/Point.h"
+#include "../../Utils/Point/Point.h"
 #include "../Forme.h"
 
 class Line : public Forme{
@@ -14,11 +14,12 @@ class Line : public Forme{
 private:
     Point a;
     Point b;
+    Color color;
 
 public:
     static Line create();
     Line();
-    Line(Point a, Point b);
+    Line(Point a, Point b, Color color);
 
     void draw();
 

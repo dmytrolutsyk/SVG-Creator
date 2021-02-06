@@ -6,7 +6,7 @@
 #define SVG_CREATOR_DRAW_H
 
 #include <vector>
-#include "../Formes/Point/Point.h"
+#include "../Utils/Point/Point.h"
 #include "../Formes/Forme.h"
 #include "../Formes/Rectangle/Rectangle.h"
 #include "../Formes/Circle/Circle.h"

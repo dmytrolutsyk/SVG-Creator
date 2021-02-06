@@ -104,12 +104,6 @@
 		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h">
 			<Option target="SVG_Creator"/>
 		</Unit>
-		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.cpp">
-			<Option target="SVG_Creator"/>
-		</Unit>
-		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Point/Point.h">
-			<Option target="SVG_Creator"/>
-		</Unit>
 		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.cpp">
 			<Option target="SVG_Creator"/>
 		</Unit>
@@ -120,6 +114,18 @@
 			<Option target="SVG_Creator"/>
 		</Unit>
 		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Rectangle/Rectangle.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.cpp">
+			<Option target="SVG_Creator"/>
+		</Unit>
+		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h">
 			<Option target="SVG_Creator"/>
 		</Unit>
 		<Unit filename="/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/main.cpp">

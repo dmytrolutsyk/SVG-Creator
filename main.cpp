@@ -23,15 +23,29 @@ Draw createDraw() {
     return Draw(largeur, hauteur);
 }
 
+void populateDraw(Draw draw) {
+    std::cout << "Pour remplir votre dessin il faudra creer autant de forme que nécessaire : ";
+    bool stopPopulate = false;
+    do {
+        draw.createForme();
+        int input;
+        std::cout << "Voulez vous ajouter une autre forme ? si oui taper 1 : \n";
+        std::cin >> input;
+        if(input == 1) {stopPopulate = true;}
+    }while(!stopPopulate);
+}
+
 int main() {
     std::cout << "Bienvenue dans le SVG Creator !\n";
     std::cout << "Pour commencer veuillez créer votre dessin :\n";
     Draw draw = createDraw();
-    draw.createForme();
+    populateDraw(draw);
     std::cout << "nb de forme du dessin : " << draw.getListFormeLength();
 
     return 0;
 }
+
+
 
 
 

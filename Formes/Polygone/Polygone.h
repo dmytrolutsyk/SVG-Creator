@@ -7,19 +7,20 @@
 
 
 #include <vector>
-#include "../Point/Point.h"
+#include "../../Utils/Point/Point.h"
 #include "../Forme.h"
 
 class Polygone : public Forme {
 private:
     std::vector<Point> listPoint;
-
+    Color color;
     void addPoint();
 
 public:
     static Polygone create();
     Polygone();
     Polygone(std::vector<Point> listPoint);
+    void addColor(Color color);
 
     std::vector<Point> getListPoint();
 

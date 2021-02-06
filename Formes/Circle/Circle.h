@@ -6,12 +6,14 @@
 #define SVG_CREATOR_CIRCLE_H
 
 
-#include "../Point/Point.h"
+#include "../../Utils/Point/Point.h"
+#include "../../Utils/Color/Color.h"
 
 class Circle {
 private:
     float m_radius;
     Point m_center;
+    Color color;
 
 public:
     Circle(int centerX, int centerY, float radius);

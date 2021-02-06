@@ -231,33 +231,6 @@ Formes/Line/Line.cpp.s:
 	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Formes/Line/Line.cpp.s
 .PHONY : Formes/Line/Line.cpp.s
 
-Formes/Point/Point.o: Formes/Point/Point.cpp.o
-
-.PHONY : Formes/Point/Point.o
-
-# target to build an object file
-Formes/Point/Point.cpp.o:
-	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.o
-.PHONY : Formes/Point/Point.cpp.o
-
-Formes/Point/Point.i: Formes/Point/Point.cpp.i
-
-.PHONY : Formes/Point/Point.i
-
-# target to preprocess a source file
-Formes/Point/Point.cpp.i:
-	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.i
-.PHONY : Formes/Point/Point.cpp.i
-
-Formes/Point/Point.s: Formes/Point/Point.cpp.s
-
-.PHONY : Formes/Point/Point.s
-
-# target to generate assembly for a file
-Formes/Point/Point.cpp.s:
-	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Formes/Point/Point.cpp.s
-.PHONY : Formes/Point/Point.cpp.s
-
 Formes/Polygone/Polygone.o: Formes/Polygone/Polygone.cpp.o
 
 .PHONY : Formes/Polygone/Polygone.o
@@ -312,6 +285,60 @@ Formes/Rectangle/Rectangle.cpp.s:
 	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Formes/Rectangle/Rectangle.cpp.s
 .PHONY : Formes/Rectangle/Rectangle.cpp.s
 
+Utils/Color/Color.o: Utils/Color/Color.cpp.o
+
+.PHONY : Utils/Color/Color.o
+
+# target to build an object file
+Utils/Color/Color.cpp.o:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.o
+.PHONY : Utils/Color/Color.cpp.o
+
+Utils/Color/Color.i: Utils/Color/Color.cpp.i
+
+.PHONY : Utils/Color/Color.i
+
+# target to preprocess a source file
+Utils/Color/Color.cpp.i:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.i
+.PHONY : Utils/Color/Color.cpp.i
+
+Utils/Color/Color.s: Utils/Color/Color.cpp.s
+
+.PHONY : Utils/Color/Color.s
+
+# target to generate assembly for a file
+Utils/Color/Color.cpp.s:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Color/Color.cpp.s
+.PHONY : Utils/Color/Color.cpp.s
+
+Utils/Point/Point.o: Utils/Point/Point.cpp.o
+
+.PHONY : Utils/Point/Point.o
+
+# target to build an object file
+Utils/Point/Point.cpp.o:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.o
+.PHONY : Utils/Point/Point.cpp.o
+
+Utils/Point/Point.i: Utils/Point/Point.cpp.i
+
+.PHONY : Utils/Point/Point.i
+
+# target to preprocess a source file
+Utils/Point/Point.cpp.i:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.i
+.PHONY : Utils/Point/Point.cpp.i
+
+Utils/Point/Point.s: Utils/Point/Point.cpp.s
+
+.PHONY : Utils/Point/Point.s
+
+# target to generate assembly for a file
+Utils/Point/Point.cpp.s:
+	$(MAKE) -f CMakeFiles/SVG_Creator.dir/build.make CMakeFiles/SVG_Creator.dir/Utils/Point/Point.cpp.s
+.PHONY : Utils/Point/Point.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -360,15 +387,18 @@ help:
 	@echo "... Formes/Line/Line.o"
 	@echo "... Formes/Line/Line.i"
 	@echo "... Formes/Line/Line.s"
-	@echo "... Formes/Point/Point.o"
-	@echo "... Formes/Point/Point.i"
-	@echo "... Formes/Point/Point.s"
 	@echo "... Formes/Polygone/Polygone.o"
 	@echo "... Formes/Polygone/Polygone.i"
 	@echo "... Formes/Polygone/Polygone.s"
 	@echo "... Formes/Rectangle/Rectangle.o"
 	@echo "... Formes/Rectangle/Rectangle.i"
 	@echo "... Formes/Rectangle/Rectangle.s"
+	@echo "... Utils/Color/Color.o"
+	@echo "... Utils/Color/Color.i"
+	@echo "... Utils/Color/Color.s"
+	@echo "... Utils/Point/Point.o"
+	@echo "... Utils/Point/Point.i"
+	@echo "... Utils/Point/Point.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
