@@ -6,65 +6,61 @@
 
 #IncludeRegexTransform: 
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
+D:/MASTER/SVG Creator/Draw/Draw.cpp
+iostream
+-
+Draw.h
+D:/MASTER/SVG Creator/Draw/Draw.h
+
+D:/MASTER/SVG Creator/Draw/Draw.h
 vector
 -
 ../Utils/Point/Point.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
 ../Formes/Forme.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
+D:/MASTER/SVG Creator/Formes/Forme.h
 ../Formes/Rectangle/Rectangle.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Rectangle/Rectangle.h
+D:/MASTER/SVG Creator/Formes/Rectangle/Rectangle.h
 ../Formes/Circle/Circle.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Circle/Circle.h
+D:/MASTER/SVG Creator/Formes/Circle/Circle.h
 ../Formes/Line/Line.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h
+D:/MASTER/SVG Creator/Formes/Line/Line.h
 ../Formes/Polygone/Polygone.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
+D:/MASTER/SVG Creator/Formes/Polygone/Polygone.h
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Circle/Circle.h
+D:/MASTER/SVG Creator/Formes/Circle/Circle.h
 ../../Utils/Point/Point.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
 ../../Utils/Color/Color.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
-
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
-../Utils/Color/Color.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
-
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h
-../../Utils/Point/Point.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Color/Color.h
 ../Forme.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
+D:/MASTER/SVG Creator/Formes/Forme.h
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
+D:/MASTER/SVG Creator/Formes/Forme.h
+../Utils/Color/Color.h
+D:/MASTER/SVG Creator/Utils/Color/Color.h
+
+D:/MASTER/SVG Creator/Formes/Line/Line.h
+../../Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
+../Forme.h
+D:/MASTER/SVG Creator/Formes/Forme.h
+
+D:/MASTER/SVG Creator/Formes/Polygone/Polygone.h
 vector
 -
 ../../Utils/Point/Point.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
 ../Forme.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
+D:/MASTER/SVG Creator/Formes/Forme.h
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Rectangle/Rectangle.h
+D:/MASTER/SVG Creator/Formes/Rectangle/Rectangle.h
 ../../Utils/Point/Point.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
 ../Forme.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
+D:/MASTER/SVG Creator/Formes/Forme.h
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
+D:/MASTER/SVG Creator/Utils/Color/Color.h
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
-
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/main.cpp
-iostream
--
-math.h
--
-stdio.h
--
-Formes/Polygone/Polygone.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
-Draw/Draw.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
+D:/MASTER/SVG Creator/Utils/Point/Point.h
 
