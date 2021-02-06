@@ -44,7 +44,7 @@ void Draw::createRectangle() {
     isConform = this->rectangleIsconform(rectangle);
     if(isConform) {this->addForme(&rectangle);}
     else {
-        int cancelOrRetry = this->cancerOrRetry();
+        int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createRectangle();}
     }
 }
@@ -60,7 +60,7 @@ void Draw::createLine() {
         std::cout << "Line is confoooooorrrrrrmmmmm // Adding line";
         this->addForme(&line);
     } else {
-        int cancelOrRetry = this->cancerOrRetry();
+        int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createLine();}
     }
 }
@@ -72,7 +72,7 @@ void Draw::createPolygone() {
     isConform = this->polygoneIsconform(polygone);
     if(isConform) {this->addForme(&polygone);}
     else {
-        int cancelOrRetry = this->cancerOrRetry();
+        int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createPolygone();}
     }
 }
@@ -109,7 +109,7 @@ bool Draw::polygoneIsconform(Polygone polygone) {
  * Return 0 for cancel
  * Return 1 for retry
  */
-int Draw::cancerOrRetry() {
+int Draw::cancelOrRetry() {
     int returnCode;
     std::cout << "La figure que vous avez créer n'est pas positionnable sur le dessin :/ \n";
     do {

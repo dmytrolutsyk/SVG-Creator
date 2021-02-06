@@ -34,7 +34,7 @@ private:
     void createLine();
     void createPolygone();
 
-    int cancerOrRetry();
+    int cancelOrRetry();
 
     bool pointIsConform(Point point);
     bool rectangleIsconform(Rectangle rectangle);
