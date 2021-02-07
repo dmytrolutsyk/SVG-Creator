@@ -35,6 +35,15 @@ Line::Line() {}
 Point Line::getA() {return this->a;}
 Point Line::getB() {return this->b;}
 
-void Line::draw() {
-
+void Line::draw(std::string fileName) {
+    std::cout << "will write line \n";
+    std::ofstream mySvg;
+    mySvg.open(fileName, std::ios::app);
+    mySvg << "<line ";
+    mySvg << "x1=\"" << this->getA().getX() << "\" y1=\"" << this->getA().getY() << "\" ";
+    mySvg << "x2=\"" << this->getB().getX() << "\" y2=\"" << this->getB().getY() << "\" ";
+    mySvg << "stroke=\"" << this->color.getColorName() << "\" ";
+    mySvg << "stroke-width=\"4\" ";
+    mySvg << "/>\n";
+    mySvg.close();
 }

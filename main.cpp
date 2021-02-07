@@ -9,8 +9,11 @@
 Draw createDraw() {
     int hauteur;
     int largeur;
+    std::string drawName;
     bool validData = false;
-
+    std::cout << "Entrez le nom de votre dessin : ";
+    std::cin >> drawName;
+    std::cout << "\n";
     do {
         std::cout << "Veuiller choisir la hauteur de votre dessin : \n";
         std::cin >> hauteur;
@@ -20,18 +23,18 @@ Draw createDraw() {
         else validData = true;
     }while(!validData);
 
-    return Draw(largeur, hauteur);
+    return Draw(largeur, hauteur, drawName);
 }
 
-void populateDraw(Draw draw) {
+void populateDraw(Draw *draw) {
     std::cout << "Pour remplir votre dessin il faudra creer autant de forme que nécessaire : ";
     bool stopPopulate = false;
     do {
-        draw.createForme();
+        draw->createForme();
         int input;
         std::cout << "Voulez vous ajouter une autre forme ? si oui taper 1 : \n";
         std::cin >> input;
-        if(input == 1) {stopPopulate = true;}
+        if(input != 1) {stopPopulate = true;}
     }while(!stopPopulate);
 }
 
@@ -39,9 +42,10 @@ int main() {
     std::cout << "Bienvenue dans le SVG Creator !\n";
     std::cout << "Pour commencer veuillez créer votre dessin :\n";
     Draw draw = createDraw();
-    populateDraw(draw);
-    std::cout << "nb de forme du dessin : " << draw.getListFormeLength();
-
+    populateDraw(&draw);
+    std::cout << "nb de forme du dessin : " << draw.getListFormeLength() << "\n";
+    std::string result = draw.createSvg();
+    std::cout << "file created name : " << result;
     return 0;
 }
 

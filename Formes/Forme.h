@@ -7,11 +7,13 @@
 
 
 #include "../Utils/Color/Color.h"
+#include <fstream>
+
 
 class Forme {
 public:
     // Abstract function
-    virtual void draw() = 0;
+    virtual void draw(std::string fileName) = 0;
 private:
     Color color;
 };

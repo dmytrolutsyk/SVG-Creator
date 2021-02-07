@@ -21,7 +21,7 @@ public:
     Line();
     Line(Point a, Point b, Color color);
 
-    void draw();
+    void draw(std::string fileName);
 
     Point getA();
     Point getB();

@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.cpp
+iostream
+-
+Draw.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
+string
+-
+typeinfo
+-
+limits
+-
+
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
 vector
 -
@@ -31,6 +43,8 @@ vector
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
 ../Utils/Color/Color.h
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
+fstream
+-
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h
 ../../Utils/Point/Point.h
@@ -55,16 +69,4 @@ vector
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
-
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/main.cpp
-iostream
--
-math.h
--
-stdio.h
--
-Formes/Polygone/Polygone.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
-Draw/Draw.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
 

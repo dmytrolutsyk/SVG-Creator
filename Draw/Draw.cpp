@@ -4,10 +4,32 @@
 
 #include <iostream>
 #include "Draw.h"
+#include <string>
+#include <typeinfo>
+#include <limits>
 
-Draw::Draw(int largeur, int hauteur) {
+const int rectangleIndex = 0;
+const int lineIndex = 1;
+const int circleIndex = 3;
+const int polygoneIndex = 2;
+
+Draw::Draw(int largeur, int hauteur, std::string name) {
     this->hauteur = hauteur;
     this->largeur = largeur;
+    this->name = name;
+
+    std::vector<Rectangle *> rectangles;
+    std::vector<Line *> lines;
+    std::vector<Circle *> circles;
+    std::vector<Polygone *> polygones;
+
+    std::vector<std::vector<Forme*>> formes = {
+            {rectangles.begin(), rectangles.end()},
+            {lines.begin(),      lines.end()},
+            {polygones.begin(),  polygones.end()},
+            //{circles.begin(),    circles.end()}
+    };
+    this->formes = formes;
 }
 
 int Draw::getHauteur() { return this->hauteur; }
@@ -15,8 +37,13 @@ int Draw::getLargeur() { return this->largeur; }
 
 
 
-void Draw::addForme(Forme* forme) {
-    this->formes.push_back(forme);
+void Draw::addForme(Forme* forme, int index) {
+    std::cout << "size forme before : " << this->formes[index].size() << "\n";
+    this->formes[index].push_back(forme);
+    std::cout << "size forme after : " << this->formes[index].size() << "\n";
+    std::cout << "size of line after : " << this->formes[lineIndex].size() << "\n";
+    std::cout << "index : " << index << "\n";
+
 }
 
 void Draw::createForme() {
@@ -34,7 +61,6 @@ void Draw::createForme() {
         case 3: this->createPolygone(); break;
         default: break;
     }
-    std::cout << "Create forme teerrrrmiinnnaaadddoooo";
 }
 
 void Draw::createRectangle() {
@@ -42,7 +68,7 @@ void Draw::createRectangle() {
     bool isConform;
     rectangle = Rectangle::create();
     isConform = this->rectangleIsconform(rectangle);
-    if(isConform) {this->addForme(&rectangle);}
+    if(isConform) {this->addForme(&rectangle, rectangleIndex);}
     else {
         int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createRectangle();}
@@ -58,7 +84,7 @@ void Draw::createLine() {
     isConform = this->lineIsconform(line);
     if(isConform) {
         std::cout << "Line is confoooooorrrrrrmmmmm // Adding line";
-        this->addForme(&line);
+        this->addForme(&line, lineIndex);
     } else {
         int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createLine();}
@@ -70,7 +96,7 @@ void Draw::createPolygone() {
     bool isConform;
     polygone = Polygone::create();
     isConform = this->polygoneIsconform(polygone);
-    if(isConform) {this->addForme(&polygone);}
+    if(isConform) {this->addForme(&polygone, polygoneIndex);}
     else {
         int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createPolygone();}
@@ -122,6 +148,52 @@ int Draw::cancelOrRetry() {
 
 int Draw::getListFormeLength() {
     return this->formes.size();
+}
+
+std::string Draw::createSvg() {
+    std::string fileName = this->name + ".svg";
+    std::ofstream svgFile;
+    svgFile.open(fileName, std::ios::app);
+    if(svgFile.is_open()) {std::cout << "file open \n";}
+    svgFile << "<svg ";
+    svgFile << "width=\"" << this->getLargeur() << "\" ";
+    svgFile << "height=\"" << this->getHauteur() << "\" >\n";
+    svgFile.close();
+    std::cout << "size of formes : " << this->formes.size() << "\n";
+    std::cout << "size of line after : " << this->formes[lineIndex].size() << "\n";
+    for(int i = 0; i < this->formes.size(); i++) {
+        for(int j = 0; j < this->formes[i].size(); j++) {
+            std::cout << "iteration frome \n";
+            switch(i) {
+                case lineIndex: {
+                    this->drawLine(this->formes[lineIndex][j], fileName);
+                    break;
+                }
+                default: break;
+            }
+        }
+    }
+
+    svgFile.open(fileName, std::ios::app);
+    svgFile << "</svg>";
+    return fileName;
+}
+
+void Draw::drawLine(Forme *forme, std::string fileName) {
+    std::cout << "write line \n";
+    Line *line = dynamic_cast<Line*>(forme);
+    std::cout << "x1 : " << line->getA().getX();
+    line->draw(fileName);
+}
+
+void Draw::drawRectangle(Forme *forme, std::string fileName) {
+    Rectangle *rectangle = dynamic_cast<Rectangle*>(forme);
+    rectangle->draw(fileName);
+}
+
+void Draw::drawPolygone(Forme *forme, std::string fileName) {
+    Polygone *polygone = dynamic_cast<Polygone*>(forme);
+    polygone->draw(fileName);
 }
 
 

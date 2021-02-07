@@ -36,11 +36,18 @@ void Polygone::addPoint() {
 }
 
 std::vector<Point> Polygone::getListPoint() {return this->listPoint;}
+void Polygone::addColor(Color color) {this->color = color;}
 
-void Polygone::draw() {
-
-}
-
-void Polygone::addColor(Color color) {
-    this->color = color;
+void Polygone::draw(std::string fileName) {
+    std::ofstream mySvg;
+    mySvg.open(fileName, std::ios::app);
+    mySvg << "<polyline ";
+    mySvg << "points=\"";
+    std::vector<Point>::iterator it, end;
+    for(it = this->listPoint.begin(), end = this->listPoint.end(); it!=end; ++it){
+        mySvg << it->getX() << "," << it->getY() << " ";
+    }
+    mySvg << "stroke=\"" << this->color.getColorName() << "\" ";
+    mySvg << "/>\n";
+    mySvg.close();
 }

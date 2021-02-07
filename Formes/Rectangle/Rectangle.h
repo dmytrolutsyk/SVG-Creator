@@ -13,7 +13,7 @@ public:
     static Rectangle create();
     Rectangle();
     Rectangle(int hauteur, int largeur, Point topCorner, Color color);
-    void draw();
+    void draw(std::string fileName);
 
     int getHauteur();
     int getLargeur();
@@ -26,6 +26,8 @@ private:
         int largeur;
         Point topCorner;
         Color color;
+        static std::string classeName;
+
 
 };
 

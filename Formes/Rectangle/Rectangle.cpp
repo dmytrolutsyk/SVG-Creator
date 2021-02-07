@@ -41,12 +41,20 @@ Rectangle::Rectangle() {
 }
 
 
-void Rectangle::draw() {
-
-}
-
 int Rectangle::getHauteur() {return this->hauteur;}
 int Rectangle::getLargeur() {return this->largeur;}
 Point Rectangle::getCorner() {return this->topCorner;}
+
+void Rectangle::draw(std::string fileName) {
+    std::ofstream mySvg;
+    mySvg.open(fileName, std::ios::app);
+    mySvg << "<rect ";
+    mySvg << "x=\"" << this->topCorner.getX() << "\" " << "y=\"" << this->topCorner.getY() << "\" ";
+    mySvg << "width=\"" << this->largeur << "\" " << "height=\"" << this->hauteur << "\" ";
+    mySvg << "stroke=\"" << this->color.getColorName() << "\" ";
+    mySvg << "stroke-width=\"4\" ";
+    mySvg << "/>\n";
+    mySvg.close();
+}
 
 

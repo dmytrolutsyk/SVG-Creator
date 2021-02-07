@@ -16,8 +16,9 @@
 class Draw {
 
 public:
-    Draw(int largeur, int hauteur);
+    Draw(int largeur, int hauteur, std::string name);
     void createForme();
+    std::string createSvg();
 
     int getHauteur();
     int getLargeur();
@@ -26,9 +27,10 @@ public:
 private:
     int largeur;
     int hauteur;
-    std::vector<Forme*> formes;
+    std::string name;
+    std::vector<std::vector<Forme*>> formes;
 
-    void addForme(Forme* forme);
+    void addForme(Forme* forme, int index);
     void createRectangle();
     void createCircle();
     void createLine();
@@ -42,6 +44,9 @@ private:
     bool lineIsconform(Line line);
     bool polygoneIsconform(Polygone polygone);
 
+    void drawLine(Forme *forme, std::string fileName);
+    void drawRectangle(Forme *forme, std::string fileName);
+    void drawPolygone(Forme *forme, std::string fileName);
 
 
 };

@@ -8,17 +8,13 @@
 
 class Color {
 private:
-    int red;
-    int green;
-    int blue;
+    std::string nameColor;
 
 public:
     static Color create();
-    Color(int red, int green, int blue);
+    explicit Color(std::string nameColor);
     Color();
-    int getRed();
-    int getBlue();
-    int getGreen();
+    std::string getColorName();
 };
 
 
