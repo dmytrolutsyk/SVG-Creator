@@ -42,7 +42,7 @@ private:
     bool rectangleIsconform(Rectangle rectangle);
     bool circleIsconform(Circle circle);
     bool lineIsconform(Line line);
-    bool polygoneIsconform(Polygone polygone);
+    bool polygoneIsconform(Polygone* polygone);
 
     void drawFormes(std::string fileName);
     void drawLine(Forme *forme, std::string fileName);

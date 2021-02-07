@@ -38,12 +38,7 @@ int Draw::getLargeur() { return this->largeur; }
 
 
 void Draw::addForme(Forme* forme, int index) {
-    std::cout << "size forme before : " << this->formes[index].size() << "\n";
     this->formes[index].push_back(forme);
-    std::cout << "size forme after : " << this->formes[index].size() << "\n";
-    std::cout << "size of line after : " << this->formes[lineIndex].size() << "\n";
-    std::cout << "index : " << index << "\n";
-
 }
 
 void Draw::createForme() {
@@ -97,7 +92,6 @@ void Draw::createLine() {
     line = Line::create();
     isConform = this->lineIsconform(line);
     if(isConform) {
-        std::cout << "Line is confoooooorrrrrrmmmmm // Adding line";
         this->addForme(&line, lineIndex);
     } else {
         int cancelOrRetry = this->cancelOrRetry();
@@ -109,7 +103,7 @@ void Draw::createPolygone() {
     Polygone polygone;
     bool isConform;
     polygone = Polygone::create();
-    isConform = this->polygoneIsconform(polygone);
+    isConform = this->polygoneIsconform(&polygone);
     if(isConform) {this->addForme(&polygone, polygoneIndex);}
     else {
         int cancelOrRetry = this->cancelOrRetry();
@@ -136,11 +130,11 @@ bool Draw::rectangleIsconform(Rectangle rectangle) {
     else return true;
 }
 
-bool Draw::polygoneIsconform(Polygone polygone) {
+bool Draw::polygoneIsconform(Polygone* polygone) {
     std::vector<Point>::iterator it,end;
     bool isConform = true;
-    for(it = polygone.getListPoint().begin(), end = polygone.getListPoint().end(); it!=end; ++it){
-        if(!this->pointIsConform(*it.base())) {isConform = false;}
+    for(int i = 0; i<polygone->getListPoint().size(); i++){
+        if(!this->pointIsConform(polygone->getListPoint()[i])) {isConform = false;}
     }
     return isConform;
 }
@@ -193,7 +187,6 @@ std::string Draw::createSvg() {
 void Draw::drawFormes(std::string fileName) {
     for(int i = 0; i < this->formes.size(); i++) {
         for(int j = 0; j < this->formes[i].size(); j++) {
-            std::cout << "iteration frome \n";
             switch(i) {
                 case lineIndex: {
                     this->drawLine(this->formes[lineIndex][j], fileName);
@@ -204,8 +197,7 @@ void Draw::drawFormes(std::string fileName) {
                     break;
                 }
                 case circleIndex: {
-                    //TODO
-                    //this->drawCircle(this->formes[circleIndex][j], fileName);
+                    this->drawCircle(this->formes[circleIndex][j], fileName);
                     break;
                 }
                 case polygoneIndex: {
@@ -219,12 +211,10 @@ void Draw::drawFormes(std::string fileName) {
 }
 
 void Draw::drawLine(Forme *forme, std::string fileName) {
-    std::cout << "write line \n";
     //forme->draw(fileName);
     //std::cout << "finish write line";
     Line* line = dynamic_cast<Line*>(forme);
-    std::cout << "x1 : " << line->getA().getX();
-    //line->draw(fileName);
+    line->draw(fileName);
 }
 
 void Draw::drawRectangle(Forme *forme, std::string fileName) {
@@ -238,7 +228,8 @@ void Draw::drawPolygone(Forme *forme, std::string fileName) {
 }
 
 void Draw::drawCircle(Forme* forme, std::string fileName) {
-
+    Circle *circle = dynamic_cast<Circle*>(forme);
+    circle->draw(fileName);
 }
 
 

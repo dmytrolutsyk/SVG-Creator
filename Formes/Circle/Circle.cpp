@@ -48,7 +48,14 @@ void Circle::setCenter(Point newCenter){
 }
 
 void Circle::draw(std::string fileName) {
-
+    std::ofstream mySvg;
+    mySvg.open(fileName, std::ios::app);
+    mySvg << "<circle ";
+    mySvg << "cx=\"" << this->m_center.getX() << "\" " << "cy=\"" << this->m_center.getY() << "\" ";
+    mySvg << "r=\"" << this->m_radius << "\" ";
+    mySvg << "fill=\"" << this->color.getColorName() << "\" ";
+    mySvg << "/>\n";
+    mySvg.close();
 }
 
 

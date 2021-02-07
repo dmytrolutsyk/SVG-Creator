@@ -48,12 +48,6 @@ vector
 fstream
 -
 
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.cpp
-iostream
--
-Line.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h
-
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Line/Line.h
 ../../Utils/Point/Point.h
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
@@ -79,16 +73,4 @@ iostream
 -
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
-
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/main.cpp
-iostream
--
-math.h
--
-stdio.h
--
-Formes/Polygone/Polygone.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Polygone/Polygone.h
-Draw/Draw.h
-/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Draw/Draw.h
 
