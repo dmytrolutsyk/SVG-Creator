@@ -44,10 +44,11 @@ private:
     bool lineIsconform(Line line);
     bool polygoneIsconform(Polygone polygone);
 
+    void drawFormes(std::string fileName);
     void drawLine(Forme *forme, std::string fileName);
     void drawRectangle(Forme *forme, std::string fileName);
     void drawPolygone(Forme *forme, std::string fileName);
-
+    void drawCircle(Forme* forme, std::string fileName);
 
 };
 

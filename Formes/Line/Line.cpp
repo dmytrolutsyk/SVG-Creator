@@ -27,6 +27,7 @@ Line Line::create() {
     b = Point::create();
     std::cout << "Et pour finir veuiller choisir la couleur :";
     color = Color::create();
+    std::cout << "before line created";
     return Line(a,b,color);
 }
 
@@ -47,3 +48,4 @@ void Line::draw(std::string fileName) {
     mySvg << "/>\n";
     mySvg.close();
 }
+

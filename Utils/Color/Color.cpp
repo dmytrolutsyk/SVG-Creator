@@ -36,7 +36,7 @@ Color Color::create() {
 
 
 Color::Color(std::string colorName) {
-    this->nameColor = nameColor;
+    this->nameColor = colorName;
 }
 
 Color::Color() {

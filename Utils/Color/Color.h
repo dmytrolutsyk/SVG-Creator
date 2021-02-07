@@ -5,6 +5,8 @@
 #ifndef SVG_CREATOR_COLOR_H
 #define SVG_CREATOR_COLOR_H
 
+#include <iostream>
+
 
 class Color {
 private:

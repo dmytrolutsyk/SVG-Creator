@@ -20,6 +20,7 @@ public:
     static Line create();
     Line();
     Line(Point a, Point b, Color color);
+    virtual ~Line() {};
 
     void draw(std::string fileName);
 

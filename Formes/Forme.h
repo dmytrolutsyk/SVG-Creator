@@ -14,6 +14,7 @@ class Forme {
 public:
     // Abstract function
     virtual void draw(std::string fileName) = 0;
+    virtual ~Forme() {};
 private:
     Color color;
 };

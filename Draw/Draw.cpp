@@ -184,6 +184,13 @@ std::string Draw::createSvg() {
     svgFile.close();
     std::cout << "size of formes : " << this->formes.size() << "\n";
     std::cout << "size of line after : " << this->formes[lineIndex].size() << "\n";
+    this->drawFormes(fileName);
+    svgFile.open(fileName, std::ios::app);
+    svgFile << "</svg>";
+    return fileName;
+}
+
+void Draw::drawFormes(std::string fileName) {
     for(int i = 0; i < this->formes.size(); i++) {
         for(int j = 0; j < this->formes[i].size(); j++) {
             std::cout << "iteration frome \n";
@@ -192,21 +199,32 @@ std::string Draw::createSvg() {
                     this->drawLine(this->formes[lineIndex][j], fileName);
                     break;
                 }
+                case rectangleIndex: {
+                    this->drawRectangle(this->formes[rectangleIndex][j], fileName);
+                    break;
+                }
+                case circleIndex: {
+                    //TODO
+                    //this->drawCircle(this->formes[circleIndex][j], fileName);
+                    break;
+                }
+                case polygoneIndex: {
+                    this->drawPolygone(this->formes[polygoneIndex][j], fileName);
+                    break;
+                }
                 default: break;
             }
         }
     }
-
-    svgFile.open(fileName, std::ios::app);
-    svgFile << "</svg>";
-    return fileName;
 }
 
 void Draw::drawLine(Forme *forme, std::string fileName) {
     std::cout << "write line \n";
-    Line *line = dynamic_cast<Line*>(forme);
+    //forme->draw(fileName);
+    //std::cout << "finish write line";
+    Line* line = dynamic_cast<Line*>(forme);
     std::cout << "x1 : " << line->getA().getX();
-    line->draw(fileName);
+    //line->draw(fileName);
 }
 
 void Draw::drawRectangle(Forme *forme, std::string fileName) {
@@ -218,6 +236,12 @@ void Draw::drawPolygone(Forme *forme, std::string fileName) {
     Polygone *polygone = dynamic_cast<Polygone*>(forme);
     polygone->draw(fileName);
 }
+
+void Draw::drawCircle(Forme* forme, std::string fileName) {
+
+}
+
+
 
 
 
