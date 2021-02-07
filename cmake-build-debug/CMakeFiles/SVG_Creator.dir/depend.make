@@ -13,6 +13,7 @@ CMakeFiles/SVG_Creator.dir/Draw/Draw.cpp.o: ../Utils/Point/Point.h
 
 CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o: ../Formes/Circle/Circle.cpp
 CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o: ../Formes/Circle/Circle.h
+CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o: ../Formes/Forme.h
 CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o: ../Utils/Color/Color.h
 CMakeFiles/SVG_Creator.dir/Formes/Circle/Circle.cpp.o: ../Utils/Point/Point.h
 

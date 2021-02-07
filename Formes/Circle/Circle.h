@@ -15,7 +15,7 @@ public:
     static Circle create();
     Circle();
     Circle(Point point, int radius);
-    void draw();
+    void draw(std::string fileName) override;
 
     Point getCenter();
     void setCenter(Point newCenter);

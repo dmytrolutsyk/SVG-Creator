@@ -82,7 +82,7 @@ void Draw::createCircle() {
     bool isConform;
     circle = Circle::create();
     isConform = this->circleIsconform(circle);
-    if(isConform) {this->addForme(&circle);}
+    if(isConform) {this->addForme(&circle, circleIndex);}
     else {
         int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createCircle();}

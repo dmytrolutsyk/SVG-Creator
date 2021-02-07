@@ -47,7 +47,8 @@ void Circle::setCenter(Point newCenter){
     this->m_center = newCenter;
 }
 
-void Circle::draw() {
+void Circle::draw(std::string fileName) {
 
 }
+
 

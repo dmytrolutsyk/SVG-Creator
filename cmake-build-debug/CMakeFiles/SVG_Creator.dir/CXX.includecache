@@ -39,6 +39,8 @@ vector
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Point/Point.h
 ../../Utils/Color/Color.h
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Utils/Color/Color.h
+../Forme.h
+/Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
 
 /Users/vidalleo/Documents/ESGI/4MOC/C++/SvgCreator/SVG-Creator/Formes/Forme.h
 ../Utils/Color/Color.h
