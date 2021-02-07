@@ -53,12 +53,14 @@ void Draw::createForme() {
         std::cout << "- Pour un segment taper 1\n";
         std::cout << "- Pour un rectangle taper 2\n";
         std::cout << "- Pour un polygone taper 3\n";
+        std::cout << "- Pour un cercle taper 4\n";
         std::cin >> typeForme;
-    }while(typeForme != 1 && typeForme != 2 && typeForme != 3);
+    }while(typeForme != 1 && typeForme != 2 && typeForme != 3 && typeForme != 4);
     switch(typeForme){
         case 1: this->createLine(); break;
         case 2: this->createRectangle(); break;
         case 3: this->createPolygone(); break;
+        case 4: this->createCircle(); break;
         default: break;
     }
 }
@@ -72,6 +74,18 @@ void Draw::createRectangle() {
     else {
         int cancelOrRetry = this->cancelOrRetry();
         if(cancelOrRetry == 1) {this->createRectangle();}
+    }
+}
+
+void Draw::createCircle() {
+    Circle circle;
+    bool isConform;
+    circle = Circle::create();
+    isConform = this->circleIsconform(circle);
+    if(isConform) {this->addForme(&circle);}
+    else {
+        int cancelOrRetry = this->cancelOrRetry();
+        if(cancelOrRetry == 1) {this->createCircle();}
     }
 }
 
@@ -128,6 +142,15 @@ bool Draw::polygoneIsconform(Polygone polygone) {
     for(it = polygone.getListPoint().begin(), end = polygone.getListPoint().end(); it!=end; ++it){
         if(!this->pointIsConform(*it.base())) {isConform = false;}
     }
+    return isConform;
+}
+
+bool Draw::circleIsconform(Circle circle) {
+    bool isConform = true;
+    if(!this->pointIsConform(circle.getCenter())) return false;
+    else if (circle.getCenter().getY() + circle.getRadius() > this->hauteur) return false;
+    else if (circle.getCenter().getX() + circle.getRadius() > this->largeur) return false;
+
     return isConform;
 }
 

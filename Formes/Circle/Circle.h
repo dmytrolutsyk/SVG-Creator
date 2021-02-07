@@ -8,20 +8,24 @@
 
 #include "../../Utils/Point/Point.h"
 #include "../../Utils/Color/Color.h"
+#include "../Forme.h"
 
-class Circle {
-private:
-    float m_radius;
-    Point m_center;
-    Color color;
-
+class Circle : public Forme {
 public:
-    Circle(int centerX, int centerY, float radius);
+    static Circle create();
+    Circle();
+    Circle(Point point, int radius);
+    void draw();
 
     Point getCenter();
     void setCenter(Point newCenter);
     float getRadius();
-    void setRadius(float value);
+    //void setRadius(int value);
+
+private:
+    int m_radius;
+    Point m_center;
+    Color color;
 };
 
 
