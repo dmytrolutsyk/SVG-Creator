@@ -27,7 +27,7 @@ Draw::Draw(int largeur, int hauteur, std::string name) {
             {rectangles.begin(), rectangles.end()},
             {lines.begin(),      lines.end()},
             {polygones.begin(),  polygones.end()},
-            //{circles.begin(),    circles.end()}
+            {circles.begin(),    circles.end()}
     };
     this->formes = formes;
 }
@@ -231,12 +231,3 @@ void Draw::drawCircle(Forme* forme, std::string fileName) {
     Circle *circle = dynamic_cast<Circle*>(forme);
     circle->draw(fileName);
 }
-
-
-
-
-
-
-
-
-
